@@ -8,4 +8,4 @@ Indeed, celestial objects are not always observable (for most spectral windows, 
 
 The first notebook in this project illustrates Lomb-Scargle periodograms obtained for a few selected periodic variable stars observed in the I band by the OGLE team. We experiment with two flavours of the Lomb-Scargle periodogram, one provided by astropy and the other provided by scipy.
 
-For the (randomly selected) examples, we note that both algorithms provide very similar results for two of the selected varable stars. For the third star, the scipy algorithm ends up with a wrong relative intensity for the peaks, and in turn with a wrong period as the method implies that the fundamental period of the variable star corresponds to the most prominent peak.
+For the (randomly selected) examples, we note both algorithms provide very similar results. We note that the scipy algorithm requires angular frequencies as input.
